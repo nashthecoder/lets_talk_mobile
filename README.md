@@ -1,14 +1,67 @@
-<img src='https://github.com/WataruMaeda/react-native-boilerplate/blob/master/__DELELE_ME__/banner.svg' width='400'>
+# letsTalk_reactnative
 
-<img src='https://github.com/WataruMaeda/react-native-boilerplate/blob/master/__DELELE_ME__/demo.gif' width='32%'>
 
-- [Expo link](https://expo.io/@wataru/react-native-boilerplate)
+![Let's Talk](assets/lets_talk_logo.png)
 
-## About
+___
 
-We spend a large amount of time to setup a project; changing file structure, installing libraries, create reusable components and so on. The purpose of using the project is to minimize the redundant effort to setup a project from scratch. In the boilerplate, it contains only commonly-used libraries and the all setup done for you.
+## Description: 
+![afya](assets/afya_logo.png)
 
-## What's included
+*A reproductive health app will allow users to:*
+1. READ information on SRH 
+2. FIND links to service providers
+3. ASK questions to counsellors on platform
+4. SHARE experiences with each other.
+
+## STEPS
+
+### Ideation stage:
+* Source an idea and refine it. DONE
+* Market research SKIPPED
+* Define functionality DONE
+
+### Design stage:
+* Sketch the web app DONE
+* Plan the workflow DONE
+* Wireframe the UI DONE
+* Seek early validation SKIPPED
+
+### Development stage: 
+* Architect the database - an ERM (Entity-Relationship Model) 
+diagram to map out the data relationship. WORK IN PROGRESS 
+* Develop the frontend - WORK IN PROGRESS 
+* Build the backend
+
+### Launch stage:
+* Host the web app
+* Deploy the web app
+
+## App UI Sketches
+![App UI Overview](assets/lets_talk_ui.png)
+
+### App UI Pages
+![Homepage](assets/home_page.jpg)
+![Find page](assets/find_page.jpg)
+![Login/SignUp page ](assets/login_page.jpg)
+![Ask me page](assets/ask_me.jpg)
+![User profile page](assets/user_profile.jpg)
+
+## Color Palettes 
+#### *[Tool used - Color Space](https://mycolor.space/)*
+![App Colors - Lets Talk](assets/lt_colors_scheme2.png)
+
+
+## App UI Figma Designs 
+![Final UI](assets/letstalk_final_UI.png)
+
+## Technologies Used
+1. React Native 
+2. Mongo DB
+3. React-UI
+4. Expo CLI
+
+[Project Link on Github](https://github.com/users/nashthecoder/projects/2)
 
 #### Navigation
 
@@ -53,20 +106,4 @@ It's very important to keep code clean to maintain readability and productivity.
 - [jest](https://jestjs.io/)
 - [pre commit](https://github.com/observing/pre-commit)
 
-## How to Use
-
-1. Download zip or click "Use this template"
-2. Update `app.json`
-
-```
- "name": "your-app-name",
- "slug": "your-app-name",
-```
-
-3. `yarn install` or `npm install`
-4. If you haven't setup expo, please follow the [instruction](https://expo.io/learn) to complete setup
-5. In terminal, `expo start`
-
-## Licence
-
-This project is available under the MIT license. See the [LICENSE](https://github.com/WataruMaeda/react-native-boilerplate/blob/master/LICENSE) file for more info.
+*Developer: NashTheCoder*

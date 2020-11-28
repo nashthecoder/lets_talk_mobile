@@ -18,8 +18,9 @@ const styles = {
   main: {
     flex: 1,
     flexDirection: 'column',
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: 'top',
+    alignItems: 'left',
+    marginLeft: 15,
   },
 }
 
@@ -37,7 +38,9 @@ const DrawerMenu = ({ navigation }) => (
       />
     </View>
     <View style={styles.main}>
-      <Text>Drawer Menu</Text>
+      <Text>Login</Text>
+      <Text>Ask</Text>
+      <Text>Find</Text>
     </View>
   </SafeAreaView>
 )
